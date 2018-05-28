@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800|Roboto:300');
+
+h1,h2,h3,h4,h5,h6{
+  text-transform: uppercase;
+}
+
+h6 {
+  margin-bottom: 0px;
+}
+
+#hero{
+  background: url(../img/hero.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.heading-hero {
+  font-size: 9vw;
+  margin-left: 20px;
+}
+
+.square {
+  background: #002fbb;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  display: inline-block;
+  margin-right: .3em;
+}
+
+
+.square-heading {
+  position: relative;
+  display: inline-block;
+}
+
+
+.number-square {
+  background: #002fbb;
+}
+
+.logo {
+  max-height: 60%;
+}
+
+.contact-email {
+  margin-bottom: 50px;
+  width: 100%;
+  padding: 7vw 0;
+}
+
+.contact-email h5 {
+  font-size: 110%;
+  text-align: center;
+}
+
+.number-square {
+  position: relative;
+  width: 30vw;
+  height: 30vw;
+}
+
+.number-square h6{
+  position: absolute;
+  bottom: -6.5vw;
+  left: -0.7vw;
+  font-size: 20vw;
+}
+
+.uk-navbar{
+  font-weight: 700;
+}
+
+.uk-offcanvas-bar {
+  font-family: "Montserrat";
+}
+
+.uk-nav-header {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+
+@media(orientation: portrait){
+.heading-wrapper {
+  min-height: 50vh;
+}
+}
+
+@media(orientation: landscape){
+.heading-wrapper {
+  min-height: 85vh;
+}
+}
+
+/*project-styles*/
+
+.project-heading {
+  font-size: 3em;
+  margin-top: 0px;
+  /*margin-left: 40px;*/
+}
+
+.project-square {  
+  width: 2em;
+  height: 2em;
+  margin-left: 20px;
+  margin-bottom: -2.8em;
+}
+
+.project-macbook {
+  margin-top: -115px;
+}
+
+/*breakpoint-xsmall*/
+
+@media(max-width: 639px){
+
+.uk-grid > * {
+  padding-left: 0px;
+}
+  
+.uk-grid {
+  margin-left: 0px;
+}
+}
+
+/*breakpoint-small*/
+
+@media(min-width: 640px) and (max-width: 959px){
+
+h3 {
+  font-size: 1.5em;
+}
+
+p, a.uk-link-muted {
+  font-size: 1.2em;
+}
+
+.uk-navbar-container {
+  padding: 20px 10px 20px 10px;
+}
+
+.logo {
+  max-height: 70%;
+}
+
+.heading-hero {
+  font-size: 9vw;
+  margin-left: 20px;
+}
+
+.number-square {
+  width: 20vw;
+  height: 20vw;
+}
+
+.number-square h6{
+  bottom: -4.5vw;
+  left: -0.5vw;
+  font-size: 13vw;
+}
+
+.contact-email {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  padding: 4vw 0;
+}
+
+.contact-email h5{
+  font-size: 2em;
+}
+
+.project-heading {
+  font-size: 9vw;
+}
+
+.project-square {  
+  width: 2em;
+  height: 2em;
+  margin-bottom: -2.8em;
+}
+
+}
+
+/*breakpoint-med*/
+
+@media(min-width: 960px) and (max-width: 1199px){
+
+h3 {
+  font-size: 2em;
+}
+
+p, a{
+  font-size: 1.2em;
+}
+
+.uk-navbar-container {
+  padding: 30px 20px 30px 20px;
+}
+
+.logo {
+  max-height: 80%;
+}
+
+.uk-navbar-nav a {
+  font-size: 1em !important;
+}
+
+.heading-hero {
+  font-size: 8vw !important;
+  margin-left: 30px;
+}
+
+.square {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.square-heading {
+  font-size: 3rem;
+}
+
+.number-square {
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+}
+
+.number-square h6{
+  position: absolute;
+  bottom: -4.4vw;
+  left: -0.5vw;
+  font-size: 13vw;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.contact-email {
+  padding: 4vw 0;
+  margin-top: 50px;
+}
+
+.contact-email h5{
+  font-size: 3rem;
+}
+
+.project-heading {
+  font-size: 12vw;
+}
+
+.project-square {  
+  width: 5em;
+  height: 5em;
+  margin-left: 30px;
+  margin-bottom: -9.8em;
+}
+
+.project-macbook {
+  margin-top: -155px;
+}
+
+}
+
+/*breakpoint-large*/
+
+@media(min-width: 1200px) and (max-width: 1599px){
+
+h3 {
+  font-size: 2em;
+}
+
+p, a.uk-link-muted {
+  font-size: 1.2em;
+}
+
+.uk-navbar-container {
+  padding: 40px 20px 40px 20px;
+}
+
+.logo {
+  max-height: 90%;
+}
+
+.uk-text-large {
+  font-size: 1.6em;
+}
+
+.uk-navbar-nav a {
+  font-size: 1em !important;
+}
+
+.heading-hero {
+  font-size: 6vw !important;
+  margin-left: 40px;
+}
+
+.square {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.square-heading {
+  font-size: 3em;
+}
+
+.number-square {
+  position: relative;
+  width: 15vw;
+  height: 15vw;
+}
+
+.number-square h6{
+  position: absolute;
+  bottom: -3.4vw;
+  left: -0.3vw;
+  font-size: 10vw;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.contact-email{
+  margin-top: 5vw;
+  margin-bottom: 10vw;
+  padding: 3vw 0;
+  width: 75%;
+}
+.contact-email h5{
+  font-size: 3em;
+  /*text-align: left;*/
+}
+
+.project-heading {
+  font-size: 8em;
+}
+
+.project-square {  
+  width: 5em;
+  height: 5em;
+  margin-left: 40px;
+  margin-bottom: -9.8em;
+}
+
+.project-macbook {
+  margin-top: -155px;
+}
+
+}
+
+/*breakpoint-xlarge*/
+
+@media(min-width: 1600px){
+h3 {
+  font-size: 2.5em;
+}
+
+p, a.uk-link-muted{
+  font-size: 1.5em;
+}
+
+.uk-navbar-container {
+  padding: 30px 60px 30px 60px;
+}
+
+.logo {
+  max-height: 100%;
+}
+
+.uk-text-large {
+  font-size: 2em;
+}
+
+.uk-navbar-nav a {
+  font-size: 1.5em !important;
+}
+
+.heading-hero {
+  font-size: 6vw !important;
+  margin-left: 60px;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.number-square {
+  position: relative;
+  width: 10vw;
+  height: 10vw;
+}
+
+.number-square h6{
+  position: absolute;
+  bottom: -2vw;
+  left: -2.9px;
+  font-size: 6vw;
+}
+
+.square {
+  width: 2em;
+  height: 2em;
+}
+
+.square-heading {
+  font-size: 4em;
+}
+
+.contact-email {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 2vw 0px 2vw 2vw;
+  max-width: 70%;
+}
+.contact-email h5{
+  font-size: 3.5em;
+  text-align: center;
+}
+
+.project-heading {
+  font-size: 10em;
+}
+
+.project-square {  
+  width: 6em;
+  height: 6em;
+  margin-left: 40px;
+  margin-bottom: -12.8em;
+}
+
+.project-macbook {
+  margin-top: -240px;
+}
+
+}

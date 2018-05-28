@@ -1,0 +1,53 @@
+// 1. Your custom variables and variable overwrites.
+$blue : #002fbb;
+$black: #050505;
+$type-color: #666666;
+
+$global-color: #666666;
+$base-heading-color: $black;
+$global-link-color: $blue;
+
+$global-primary-background: $blue;
+$global-secondary-background: $black;
+
+$global-font-family: "Roboto", sans-serif;
+$base-body-font-weight: 300;
+$navbar-nav-item-font-family: "Roboto", sans-serif;
+$base-heading-font-family: "Montserrat", sans-serif;
+$base-heading-font-weight: 700;
+
+$navbar-nav-item-font-family: $base-heading-font-family;
+$navbar-nav-item-hover-color: $blue;
+$inverse-navbar-nav-item-color: #ffffff;
+$inverse-navbar-nav-item-hover-color: $blue;
+
+// $offcanvas-bar-background: $blue;
+
+// $global-muted-background: $off-white;
+// $global-emphasis-color: $dk-gray;
+
+/* $text-lead-font-size: 1rem;
+$text-lead-line-height: 2;
+$heading-hero-font-size: 2rem;
+$heading-hero-font-size-s: 3rem;
+$heading-hero-font-size-m: 5rem;
+$navbar-nav-item-font-size: 1.2rem;
+$button-large-font-size: 1rem; */
+
+/*$button-default-border: $blue;
+$button-default-hover-border: $blue;
+$button-default-active-border: $blue;
+$button-default-color: $blue;
+$button-default-hover-background: $blue;
+$button-default-hover-color: $off-white;
+$button-default-active-background: $blue;
+$button-default-active-color: $off-white; */
+// 2. Import default variables and available mixins.
+@import "../uikit-develop/src/scss/variables-theme.scss";
+@import "../uikit-develop/src/scss/mixins-theme.scss";
+
+// 3. Your custom mixin overwrites.
+//@mixin hook-card() { color: #000; }
+
+// 4. Import UIkit.
+@import "../uikit-develop/src/scss/uikit-theme.scss";
